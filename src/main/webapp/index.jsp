@@ -34,14 +34,10 @@
     <title>Future Value Calculator</title>
   </head>
   <body>
-  <form>
+  <form action="calculate.jsp" method ="post">
       <fieldset>
-        <legend>Future Value Calculator</legend>
+          <legend><h1>Future Value Calculator</h1></legend>
           <table>
-              <tr>
-                  <td>Investment Amount</td>
-                  <td><input type="text" name="amount" placeholder="Starting amount"></td>
-              </tr>
               <tr>
                   <td>Investment Amount</td>
                   <td><input type="text" name="amount" placeholder="Starting amount"></td>
